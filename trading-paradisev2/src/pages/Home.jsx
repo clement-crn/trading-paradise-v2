@@ -1,14 +1,16 @@
 import './home.css';
+import Videobg from '../components/videobg';
 
-export default function Home(){
+ function Home(){
     return(
     
         <div className='home'>
         
-            <div>je suis Home</div>
+            <Videobg />
              
         
         </div>
         
     )
 }
+export default Home

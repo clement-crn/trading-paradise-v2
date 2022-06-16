@@ -2,8 +2,9 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: rgb(201, 201, 201);
-    
+    font-family: Arial, Helvetica, sans-serif;
     /*ceci est le bord de TOUTE l'app */
+  
   }
 
 .navbar{
@@ -37,20 +38,27 @@ body, html {
     
   }
   
-  .navbar li {
-    float: left;
+  .navbar ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+    
   }
   
   .navbar li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
+    
+    
     
   }
   
   /* Change the link color to #111 (black) on hover */
   .navbar li a:hover {
     background-color: #111;
+    border-radius: 10px;
   }

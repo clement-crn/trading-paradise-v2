@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Page2 from "./pages/Page2";
+import Page2 from "./pages/Page2.tsx";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Ticker from "./components/ticker";
@@ -20,11 +20,10 @@ root.render(
   <Navbar/>
   <Ticker />
   <React.StrictMode>
-    <Routes>Ò
+    <Routes>
       <Route path="/" element={<Home />}>
-        <Route index element={<Page2 />} />
-    
       </Route>
+      <Route path="page2" element={<Page2 />} />
     </Routes>
     </React.StrictMode>
   </BrowserRouter>

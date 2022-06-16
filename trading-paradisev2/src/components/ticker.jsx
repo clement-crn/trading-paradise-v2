@@ -9,10 +9,10 @@ function Ticker() {
         
         
         <div className="hwrap"><div class="hmove">
-  <div class="hitem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-  <div class="hitem">Aliquam consequat varius consequat.</div>
-  <div class="hitem">Fusce dapibus turpis vel nisi malesuada sollicitudin.</div>
-  <div class="hitem">Pellentesque auctor molestie orci ut blandit.</div>
+    <div class="hitem">Apple +1,6%</div>
+    <div class="hitem">Alstom +0,9%</div>
+    <div class="hitem">Société Générale -2%</div>
+    <div class="hitem">Stellantis +3%</div>
 </div></div>
   
 </div>
