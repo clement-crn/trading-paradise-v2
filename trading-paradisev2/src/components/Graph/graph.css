@@ -48,7 +48,10 @@
 .bar .progress-line span{
     height: 100%;
     width: 80%;
-    background-color: blueviolet;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #447589, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #46849f, #2c515e, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
     position: absolute;
     border-radius: 5px;
 
