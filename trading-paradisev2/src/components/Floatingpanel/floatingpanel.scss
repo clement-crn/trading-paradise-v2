@@ -41,6 +41,8 @@ p {
   height: 100%;
 }
 
+
+
 article {
   width: 300px;
   margin: 0 1em;
@@ -139,5 +141,16 @@ article {
   a {
     color: #ccc;
     text-decoration: none;
+  }
+}
+
+
+
+@media screen and (max-width: 900px)
+{
+  .v-center{
+  display: flex;
+  flex-direction: column;
+  ;
   }
 }

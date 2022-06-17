@@ -37,3 +37,15 @@
       width: 405px;
     }
   }
+
+
+  @media screen and (max-width: 900px)
+{
+  .page2-container{
+      height: 2000px;
+  }
+
+  .graph-title{
+      font-size: 18px;
+  }
+}
