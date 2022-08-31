@@ -9,7 +9,7 @@ export default function Navbar(){
             <div>
             <ul>
                 <li className='title'>Trading Paradise</li>
-                <li><Link to ="/">Acceuil</Link></li>
+                <li><Link to ="/">Accueil</Link></li>
                 <li><Link to ="/page2">Nous rejoindre</Link></li>
             </ul>    
         </div> 
