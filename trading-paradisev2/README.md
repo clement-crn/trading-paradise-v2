@@ -1,4 +1,4 @@
-<img width="1509" alt="Capture d’écran 2022-06-17 à 00 34 00" src="https://user-images.githubusercontent.com/86530475/174189502-f4dfdc8f-9e5e-4641-a4dd-ec4a8fd69adf.png">
+![trading](https://user-images.githubusercontent.com/86530475/187740811-900f85db-7ae9-49cc-88e1-5219ef5ab21e.PNG)
 
 
 # Getting Started with Create React App
