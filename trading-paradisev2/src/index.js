@@ -17,8 +17,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <div className="main">
   <BrowserRouter>
-  <Navbar/>
-  <Ticker />
+  
   <React.StrictMode>
     <Routes>
       <Route path="/" element={<Home />}>

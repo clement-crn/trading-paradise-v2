@@ -1,14 +1,21 @@
 import './home.css';
-import Videobg from '../components/videobg';
-
+import videoBg from '../components/videobg.mp4'
+import Navbar from '../components/Navbar';
+import Ticker from '../components/ticker';
+import { Link } from 'react-router-dom'
  function Home(){
     return(
     
         <div className='home'>
+        <Navbar/>
+        <Ticker />
         
-            <Videobg />
-             
+        <div className="content">
         
+            <h1>Commencez votre aventure</h1>
+            <Link to='/page2'>Nous rejoindre</Link>
+            <video src={videoBg} autoPlay loop muted />
+        </div>
         </div>
         
     )
