@@ -1,62 +1,50 @@
-
-.navbar{
+.navbar {
     display: flex;
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    
-    
 }
 
-.title{
+.title {
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
     font-weight: 700;
-    font-size: 4vh;
-    
-    
-
+    font-size: 2vh;
 }
 body {
-  margin: 0px;
+    margin: 0px;
 }
 .navbar ul {
     list-style-type: none;
-   
+
     margin: 0px;
-    padding:0px;
+    padding: 0px;
     overflow: hidden;
     background-color: rgb(36, 36, 36);
     height: 60px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     align-items: center;
-    
-  }
-  
-  .navbar ul {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+}
 
-    
-  }
-  
-  .navbar li a {
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
-    
-    
-    
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  .navbar li a:hover {
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
     background-color: #111;
     border-radius: 10px;
-  }
+}
