@@ -14,8 +14,9 @@ function Home() {
                 <Link to="/page2">Nous rejoindre</Link>
                 <div id="bgvid">
                      
-                    <video autoplay loop>
-                            <source src={videoBg} type="video/mp4"></source>
+                    <video playsinline autoplay muted loop poster="cake.jpg">
+                        <source src={videoBg} type="video/mp4"></source>
+                        Your browser does not support the video tag.
                     </video>
                      
                 </div>
