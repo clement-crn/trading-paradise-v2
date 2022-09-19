@@ -12,8 +12,14 @@ function Home() {
             <div className="content">
                 <h1>Commencez votre aventure</h1>
                 <Link to="/page2">Nous rejoindre</Link>
-
-                <video muted playsinline src={videoBg} autoPlay loop />
+                <div id="bgvid">
+                     
+                    <video autoplay loop>
+                            <source src={videoBg} type="video/mp4"></source>
+                    </video>
+                     
+                </div>
+                {/*<video muted playsinline src={videoBg} autoPlay loop />*/}
             </div>
         </div>
     );
