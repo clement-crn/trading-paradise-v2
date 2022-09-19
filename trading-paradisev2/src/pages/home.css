@@ -3,7 +3,9 @@
     padding: 0px;
     left: 0px;
 }
-
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
 video {
     height: 100vh;
     width: 100vw;
