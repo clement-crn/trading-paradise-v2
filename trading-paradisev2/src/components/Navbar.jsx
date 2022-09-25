@@ -11,6 +11,7 @@ export default function Navbar(){
                 <li className='title'>Trading Paradise</li>
                 <li><Link to ="/">Accueil</Link></li>
                 <li><Link to ="/page2">Nous rejoindre</Link></li>
+                <li><Link to ="/loginPage">Mon espace</Link></li>
             </ul>    
         </div> 
             <div>
