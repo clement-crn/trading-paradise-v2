@@ -45,4 +45,5 @@ video {
 .content a:hover {
     color: black;
     background-color: white;
+    transform: scale(1.04);
 }

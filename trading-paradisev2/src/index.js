@@ -5,11 +5,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Page2 from "./pages/Page2.tsx";
-import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
-import Ticker from "./components/ticker";
-
+import Page2 from "./pages/page2/Page2.tsx";
+import Home from "./pages/home/Home.jsx";
+import LoginPage from "./pages/page3_login/Page3";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
@@ -23,6 +21,7 @@ root.render(
       <Route path="/" element={<Home />}>
       </Route>
       <Route path="page2" element={<Page2 />} />
+      <Route path="LoginPage" element={<LoginPage />} />
     </Routes>
     </React.StrictMode>
   </BrowserRouter>

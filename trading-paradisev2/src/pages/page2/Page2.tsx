@@ -1,12 +1,12 @@
 
 import './Page2.css'
-import Graph from '../components/Graph/Graph'
-import FloatingPanel from '../components/Floatingpanel/FloatingPanel'
-import Navbar from '../components/Navbar';
-import Ticker from '../components/ticker';
+import Graph from '../../components/Graph/Graph'
+import FloatingPanel from '../../components/Floatingpanel/FloatingPanel'
+import Navbar from '../../components/Navbar';
+import Ticker from '../../components/ticker';
 
 
-export default function Page2(){
+function Page2(){
     return(
         
         <div className='page2-container'>
@@ -20,3 +20,5 @@ export default function Page2(){
         </div>
     )
 }
+
+export default Page2;

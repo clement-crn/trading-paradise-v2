@@ -1,7 +1,7 @@
 import "./home.css";
-import videoBg from "../components/videobg.mp4";
-import Navbar from "../components/Navbar";
-import Ticker from "../components/ticker";
+import videoBg from "../../components/videobg.mp4";
+import Navbar from "../../components/Navbar";
+import Ticker from "../../components/ticker";
 import { Link } from "react-router-dom";
 function Home() {
     return (
